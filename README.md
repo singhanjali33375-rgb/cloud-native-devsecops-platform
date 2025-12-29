@@ -1,23 +1,23 @@
 # cloud-native-devsecops-platform
-End-to-end Cloud Native DevSecOps platform using AWS EKS, Terraform, GitHub Actions, Cilium, eBPF (Tetragon), Prometheus and Grafana with Zero Trust security.
-# Cloud Native DevSecOps Platform (Terraform)
+End-to-end Cloud Native DevSecOps platform using AWS EKS, Terraform, GitHub Actions, Cilium, eBPF (Tetragon), Prometheus and Grafana with Zero Trust security # Cloud Native DevSecOps Platform 🚀
 
 ## 📌 Project Overview
-This project provisions an AWS S3 bucket using Terraform as part of a Cloud Native DevSecOps learning journey.
+This project demonstrates a Cloud-Native DevSecOps platform using **Terraform** to provision secure and scalable AWS infrastructure.
 
-## 🛠️ Tech Stack
+## 🛠 Tools & Technologies
 - Terraform
 - AWS (S3)
-- Ubuntu Linux
-- GitHub
+- Git & GitHub
+- Linux (Ubuntu)
 
-## 📂 Resources Created
-- AWS S3 Bucket
-- Bucket Versioning
-- Server-side Encryption
-- Object Lock Configuration
+## 📂 Infrastructure Components
+- AWS S3 Bucket with:
+  - Versioning
+  - Server-side encryption
+  - Object lock
+  - Logging enabled
 
-## 🚀 How to Run
+## ⚙️ How to Run
 ```bash
 terraform init
 terraform plan
